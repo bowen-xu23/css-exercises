@@ -1,0 +1,19 @@
+p {
+    background-color: rgb(255, 182, 193);
+    font-family: Verdana, "DegaVu Sans", sans-serif;
+}
+
+#one-ID {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+.odd-number.cooler {
+    font-size: 24px;
+}
+
+#another-ID {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
