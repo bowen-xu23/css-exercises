@@ -39,19 +39,21 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  margin: 20px;
+  margin: 16px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 16px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  padding: 8px;
 }
 
 .left-bar {
