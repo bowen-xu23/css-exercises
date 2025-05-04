@@ -13,9 +13,9 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  align-items: center;
+  align-items: center; /* Not necessary. */
   justify-content: space-between;
-  padding: 8px;
+  padding: 8px; /* Not necessary. */
 }
 
 .profile-image {
@@ -46,23 +46,25 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  margin: 16px;
+  margin: 16px; /* Repeat. Only edit ul is okey.*/
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  padding: 8px;
+  justify-content: space-around; /* Not necessary. */
+  padding: 8px; /* Shall be gap. */
 }
 
 .left-bar {
   display: flex;
   align-items: center;
+  /*gap: 16px;*/
 }
 
 .right-bar {
   display: flex;
   align-items: center;
+  /*gap: 16px;*/
 }
 
