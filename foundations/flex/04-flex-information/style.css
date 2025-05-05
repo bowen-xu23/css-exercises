@@ -34,3 +34,13 @@ img {
   justify-content: center;
   gap: 52px;
 }
+
+.card {
+  width: 200px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
