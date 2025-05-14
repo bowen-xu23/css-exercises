@@ -33,3 +33,18 @@ a {
   text-decoration: none;
   color: gray;
 }
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  align-items: flex-start;
+}
+
+.footer {
+  align-items: flex-end;
+  background-color: lightgray;
+}
