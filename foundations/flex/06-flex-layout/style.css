@@ -58,3 +58,7 @@ a {
   align-items: flex-end;
   background-color: #eeeeee;
 }
+
+.content {
+  text-align: center;
+}
